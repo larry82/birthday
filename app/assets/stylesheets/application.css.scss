@@ -5,3 +5,14 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body{
+	position: relative;
+	font-family: ‘Noto Sans TC’, sans-serif;
+	font-weight: 100;
+	// background-color: #FF91A9;
+	// background-image: url(bg-birthday.jpg);
+	// background-size: cover;
+}
+

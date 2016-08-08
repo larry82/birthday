@@ -1,0 +1,58 @@
+$bright: #ffffff;
+// $text:#FF91A9;
+$text:#1E1E24;
+#screen-area{
+	border-radius: 1px;
+	height:	100vh;
+	padding: 50px 50px;
+	background-color: $bright;
+	letter-spacing: 2px;
+
+	font-size: 18pt;
+	line-height: 28pt;
+	color:$text;
+	opacity: 1;
+
+	.text-pink{
+		color: #FF91A9;
+	}
+	.text-blue{
+		color: #91A9FF;
+		cursor: pointer;
+	}
+	.haha{
+		opacity: .7;
+		color:$text;
+		display: none;
+		font-size: 24pt;
+	}
+	.present{
+		display: none;
+	}
+	// .present{
+	// 	font-size:102px; 
+	// 	display: none;
+	// 	cursor: pointer;
+	// 	opacity: .6;
+	// 	&:hover{
+	// 		color:#FF91A9;
+	// 		opacity: .9;
+	// 	}
+	// }
+}
+
+.triangle{
+	position: absolute;
+	top: 45%;
+	left: 45%;
+	display: inline-block;
+	border-color: $bright $bright $bright #91A9FF;
+	border-style: solid;
+	border-width: 60px 0px 60px 120px;
+	height:0;
+	width:0;
+	
+	&:hover{
+		border-color: $bright $bright $bright lighten(#91A9FF,10%);
+	}
+}

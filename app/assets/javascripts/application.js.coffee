@@ -4,4 +4,5 @@
 #= require cocoon
 #= require turbolinks
 #= require react
+#= require typed
 #= require_tree .
